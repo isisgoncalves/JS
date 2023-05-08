@@ -13,3 +13,4 @@ Como ignorar/comentar códigos:
 Para mais de 1 linha (bloco):
   Antes do código adicionar /*, e no fim do código */
 
+//ESCOPO determina a visibilidade de alguma variável no JS.
