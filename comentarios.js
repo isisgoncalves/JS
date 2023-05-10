@@ -27,3 +27,9 @@ Iniciar com números e colocar espaços vazios: 123 alguma coisa
 Idealmente você deve colocar nomes significativos, que fazem sentido na aplicação, explicando o que a variável é, usando camel case, onde a primeira palavra de uma frase é toda minúscula, e as subsequentes não se separam por espaço e tem a primeira letra maiúscula, por exemplo: oNomeDessaVariável
 E usar nomes em inglês.
 */
+
+/*
+Para declarar uma variável podemos usar var, let e const.
+Para atribuírmos valores à essa variável utilizamos o caractere =.
+E para vermos o tipo dessa variável podemos utilizar a função console.log(typeof variavel).
+*/
