@@ -40,3 +40,16 @@ Agrupando declarações
 Para mostrar mais de uma variável no console.log também é possível usando vírgula, por exemplo:
 console.log(name, age, isStudent).
 */
+
+/*
+Concatenando e interpolando variáveis
+É possível concatenar strings com o operador +. Exemplo: 
+name = Junior
+age = 38
+o Junior tem 38 anos.
+console.log('o ' + name + ' tem ' + age + ' anos.') 
+Desta maneira as variáveis serão convertidas em texto e o que será mostrado será um texto com o nome e a idade que foram estabelecidas no código. 
+Uma outra maneira de escrever um texto com variáveis é por meio da interpolação com template literals, usando crase para o texto e ${} para denotar uma variável. Exemplo:
+console.log(O ${name} tem ${age} anos.)
+O resultado deste comando será o mesmo texto do anterior.
+*/
