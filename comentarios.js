@@ -53,3 +53,25 @@ Uma outra maneira de escrever um texto com variáveis é por meio da interpolaç
 console.log(O ${name} tem ${age} anos.)
 O resultado deste comando será o mesmo texto do anterior.
 */
+
+/*
+Objects
+Para criarmos um objeto utilizamos as chaves envolvendo as propriedades, que são atribuídas com dois pontos, por exemplo: 
+objeto = { 
+  propriedade: 'valor', 
+  propriedade: valor
+}
+const person = {
+  name: 'John', 
+  age: 20 }
+}
+Para acessar essas propriedades usamos o ".", por exemplo: 
+console.log(person.name) 
+Result: John
+ou
+console.log(person.age) 
+Result: 20
+ou
+console.log(`${person.name} tem ${person.age} anos`) 
+Result: John tem 20 anos
+E qualquer alteração no valor atribuído á propriedade do objeto, também será alterado no console.log
