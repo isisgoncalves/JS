@@ -75,3 +75,20 @@ ou
 console.log(`${person.name} tem ${person.age} anos`) 
 Result: John tem 20 anos
 E qualquer alteração no valor atribuído á propriedade do objeto, também será alterado no console.log
+*/
+/*
+Arrays
+Para criarmos um vetor utilizamos [ ] envolvendo os valores, por exemplo: 
+const animals = [ 
+  "Lion", 
+  "Monkey" 
+]
+Para acessar esses valores usamos a posição do valor no vetor, começando por 0, por exemplo: 
+console.log(animals[0])
+Result: Lion
+console.log(animals[1])
+Result: Monkey
+Para descobrirmos o número de posições de um vetor qualquer, podemos utilizar a propriedade length, por exemplo: 
+animals.length.
+Result: 2
+*/
