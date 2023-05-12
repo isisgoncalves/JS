@@ -92,3 +92,26 @@ Para descobrirmos o número de posições de um vetor qualquer, podemos utilizar
 animals.length.
 Result: 2
 */
+
+/*Functions
+Ex.: App de frases motivacionais
+
+Criando função:
+function createMantra () {
+  console.log ('Só por hoje Sou Calmo')
+  console.log ('Só por hoje Confio')
+  console.log ('Só por hoje Sou Grato')
+  console.log ('Só por hoje Sou honesto')
+  console.log ('Só por hoje Sou bondoso')
+}
+Foi armazenado o código dentro de uma function, com o nome createMantra.
+
+Executando, rodando (etc...) o código:
+createMantra ()
+createMantra ()
+createMantra ()
+createMantra ()
+createMantra ()
+console.log ('fim')
+Pode ser repetido quantas vezes quiser, e finalizado com um fim.
+*/
