@@ -115,3 +115,24 @@ createMantra ()
 console.log ('fim')
 Pode ser repetido quantas vezes quiser, e finalizado com um fim.
 */
+
+/*
+Manipulando strings e números:
+
+Transformando Strings em números:
+console.log(number(string))
+
+Transformando números em strings:
+console.log(string(number))
+
+obs.: A cor roxa refere-se a números, e branca a strings.
+
+Aplicando length (total de caracteres):
+
+let word = "Parangaricutirimirruaru"
+console.log (word.length)
+
+let number = 1234
+console.log(String(number).length)
+
+obs.: O length não se aplica a números, apenas a strings. Por isso transformamos o "number" em "strings" para que seja aplicada a função.
