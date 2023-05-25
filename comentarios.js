@@ -136,3 +136,35 @@ let number = 1234
 console.log(String(number).length)
 
 obs.: O length não se aplica a números, apenas a strings. Por isso transformamos o "number" em "strings" para que seja aplicada a função.
+*/
+/*
+Casas decimais
+
+Para determinar uma quantia de casas decimais de um número pode-se usar o método toFixed() colocando como argumento quantas casas decimais o número terá. 
+
+let number = 345.346549
+console.log (number.toFixed(2))
+R.: 345.34
+
+Para mudar a formatação do número de separado por ponto para separado por vírgula é possível usar o método replace(".", ",").
+
+let number = 345.346549
+console.log (number.toFixed(2).replace(".", ","))
+R.: 345,34
+
+O resultado final será do tipo string, e a conversão para o tipo número não será possível por que a vírgula não é considerada parte de um número.
+*/
+
+/*
+Maiúsculas e minúsculas
+
+Para transformar uma string em letras maiúsculas pode-se usar o método toUpperCase()
+let word = "Programar é legal!"
+console.log(word.toUpperCase())
+R.: PROGRAMAR É LEGAL!
+
+E ao contrário, também é possível para transformar uma string em todas letras minúsculas ao usar o toLowerCase()
+let word = "Programar é legal!"
+console.log(word.toLowerCase())
+R.: programar é legal!
+*/
