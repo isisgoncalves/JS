@@ -168,3 +168,13 @@ let word = "Programar é legal!"
 console.log(word.toLowerCase())
 R.: programar é legal!
 */
+
+//Manipulando Arrays
+
+//Exemplo:
+
+let techs = ["html", "css", "js"]
+
+//Adicionar item no fim:
+
+techs.push("nodejs")
