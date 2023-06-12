@@ -12,5 +12,16 @@
 
 // console.log (25 * 'casa')
 
-let numberInfinity = (42/0)
-console.log (numberInfinity)
+// let numberInfinity = (42/0)
+// console.log (numberInfinity)
+
+// const person = {
+//   name: 'Isis',
+//   age: 35,
+// }
+// delete person.age
+// console.log(person)
+
+console.log(2 ** 4)
+
+
