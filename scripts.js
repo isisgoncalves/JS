@@ -22,6 +22,6 @@
 // delete person.age
 // console.log(person)
 
-console.log(2 ** 4)
-
-
+let age = 19
+const Drive = age >= 18 ? 'can drive' : "can't drive"
+console.log(Drive)

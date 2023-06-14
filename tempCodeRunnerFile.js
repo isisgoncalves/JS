@@ -1,2 +1,3 @@
-let increment = 0
-console.log (increment++)
+let one = 1
+console.log(one !== 1)
+console.log(one !== "1")
