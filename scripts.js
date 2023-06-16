@@ -1,4 +1,3 @@
-let temperature = 36
-if (temperature >= 37){
-  console.log('febre')
-}
+// let person = prompt("What's your name?")
+// alert("Hello " + person)
+
