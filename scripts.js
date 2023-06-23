@@ -50,3 +50,28 @@
 // }else{
 //   alert(student + ', você está em recuperação. Estude para a próxima prova. Sua média foi de ' + ava + '.')
 // }
+
+// let list = [];
+// for(let item = 0; item < 5; item++){
+//   let itemName = prompt('Faça sua lista:')
+//   list[item] = itemName
+// }
+// alert(list)
+
+// let list = [];
+// for(let item = 0; item < 3; item++){
+//   let itemName = prompt('Do it your list')
+//   list[item] = itemName
+// }
+// alert(list)
+
+
+
+
+
+let list = [];
+for(let item = 0; item < 2; item++){
+  let itemName = prompt('Faça sua lista:')
+  list[item]= itemName
+}
+alert(list)
