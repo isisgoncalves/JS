@@ -69,9 +69,64 @@
 
 
 
-let list = [];
-for(let item = 0; item < 2; item++){
-  let itemName = prompt('Faça sua lista:')
-  list[item]= itemName
+// let list = [];
+// for(let item = 0; item < 2; item++){
+//   let itemName = prompt('Faça sua lista:')
+//   list[item]= itemName
+// }
+// alert(list)
+
+/*
+  ** Jogo da advinhação **
+
+  Apresente a mensagem ao usuário:
+  "Advinhe o número que estou pensando? Está entre 0 e 10"
+
+  Crie uma lógica para gerar um número aleatório 
+  e verificar se o número digitado é o mesmo que o aleatório gerado pelo sistema.
+
+  Enquanto o usuário não adivinhar o número, mostrar a mensagem:
+  "Erro, tente novamente:"
+
+  Caso o usuário acerte o número, apresentar a mensagem:
+  "Parabéns! Você advinhou o número em x tentativas"
+
+  Substitua o "x" da mensagem, pelo número de tentativas
+*/
+
+let result = prompt("Advinhe o número que estou pensando? Está entre 0 e 10")
+let randomNumber = Math.round(Math.random() * 10)
+//Math.random() : gera um número randomico (aleatório), entre 0 e 1.
+//* 10 : Multiplica este resultado até 10 vezes.
+//Math.round : arredonda os números quebrados para o mais próximo : 1.5 p/ 2; 1.4 p/ 1; 4.9 p/ 5...
+//randomNumber : variável de número gerado.
+while(Number(result) != randomNumber){
+  prompt("Erro, tente novamente:")
 }
-alert(list)
+//while : Enquanto.
+//Number(result) : como o resultado é uma string, transformamos em número, envolvendo o resultado dentro de (), após a palavra chave Number.
+// != : Operador de comparação "diferente de".
+// prompt("Erro, tente novamente:") : Diga("Erro, tente novamente:")
+//Ou seja, 
+//while ("Enquanto")
+//Number(result) ("resultado numérico") 
+//!= (for "diferente de") 
+//randomNumber ("Número randomico/aleatório?")
+//prompt("Erro, tente novamente:") ("Diga("Erro, tente novamente:")")
+
+
+
+
+
+
+// let result = prompt("Advinhe o número que estou pensando? Está entre 0 e 10")
+// const randomNumber = Math.round(Math.random() * 10)
+
+// let xAttempts = 1
+
+// while(Number(result) != randomNumber) {
+//   result = prompt("Erro, tente novamente:")
+//   xAttempts++
+// }
+
+// alert(`Parabéns! O número que eu pensei foi ${randomNumber} e você advinhou o número em ${xAttempts} tentativas`)
