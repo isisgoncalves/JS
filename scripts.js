@@ -92,7 +92,7 @@
   "Parabéns! Você advinhou o número em x tentativas"
 
   Substitua o "x" da mensagem, pelo número de tentativas
-*/
+
 
 let result = prompt("Advinhe o número que estou pensando? Está entre 0 e 10")
 let randomNumber = Math.round(Math.random() * 10)
@@ -100,33 +100,41 @@ let randomNumber = Math.round(Math.random() * 10)
 //* 10 : Multiplica este resultado até 10 vezes.
 //Math.round : arredonda os números quebrados para o mais próximo : 1.5 p/ 2; 1.4 p/ 1; 4.9 p/ 5...
 //randomNumber : variável de número gerado.
+
+let xAttempts = 1
+//mínimo de tentativas: 
+//xAttempts: X tentativas
+//1: número mínimo de tentativas
+
 while(Number(result) != randomNumber){
-  prompt("Erro, tente novamente:")
+  result = prompt("Erro, tente novamente:")
+  xAttempts++
 }
 //while : Enquanto.
 //Number(result) : como o resultado é uma string, transformamos em número, envolvendo o resultado dentro de (), após a palavra chave Number.
 // != : Operador de comparação "diferente de".
+//result = (resultado atribuído)
 // prompt("Erro, tente novamente:") : Diga("Erro, tente novamente:")
+//xAttempts++ : X tentativas +1(quando errar)
 //Ou seja, 
-//while ("Enquanto")
+//while ("Enquanto o")
 //Number(result) ("resultado numérico") 
 //!= (for "diferente de") 
-//randomNumber ("Número randomico/aleatório?")
+//randomNumber ("Número randomico/aleatório")
+//result ("o resultado será")
 //prompt("Erro, tente novamente:") ("Diga("Erro, tente novamente:")")
+//xAttempts++ ("X tentivas, + 1 chance se errar")
+
+alert(`Parabéns! Você advinhou o número em ${xAttempts} tentativas`)
+//Alerta quando o "while" não é aplicado.
 
 
-
-
-
-
-// let result = prompt("Advinhe o número que estou pensando? Está entre 0 e 10")
-// const randomNumber = Math.round(Math.random() * 10)
-
-// let xAttempts = 1
-
-// while(Number(result) != randomNumber) {
-//   result = prompt("Erro, tente novamente:")
-//   xAttempts++
-// }
-
-// alert(`Parabéns! O número que eu pensei foi ${randomNumber} e você advinhou o número em ${xAttempts} tentativas`)
+let result = prompt("Advinhe o número que estou pensando? Está entre 0 e 10")
+const randomNumber = Math.round(Math.random() * 10)
+let xAttempts = 1
+while(Number(result) != randomNumber) {
+  result = prompt("Erro, tente novamente:")
+  xAttempts++
+}
+alert(`Parabéns! O número que eu pensei foi ${randomNumber} e você advinhou o número em ${xAttempts} tentativas`)
+*/
